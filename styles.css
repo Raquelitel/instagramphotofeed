@@ -1,0 +1,66 @@
+:root {
+    --colorGris: #E7E6E5;
+    --grisOscuro: #B1AFAE;
+    font-family: Helvetica, sans-serif, Arial;
+
+}
+
+header {
+    background: white;
+    width: 100%;
+    margin: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font: bold;
+    padding-left: 0.5rem;
+}
+
+h3 {
+    color: var(--grisOscuro);
+    padding-right: 0.5rem;
+}
+
+p {
+    padding-left: 0.5rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    background: var(--colorGris);
+    height: 80%;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+}
+
+.feed-header {
+    display: flex;
+    justify-content: space-between;
+}
